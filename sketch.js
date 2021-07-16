@@ -17,7 +17,7 @@ function preload() {
 function setup() {
   createCanvas(1100, 510);
   player = new Player();
-  wordClassifier.Classify(heardWord);
+  wordClassifier.classify(heardWord);
 }
 function heardWord(error, results) {
   if (error) {
