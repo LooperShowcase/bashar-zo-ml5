@@ -29,6 +29,7 @@ function heardWord(error, results) {
 function keyPressed() {
   if (key === " " && isGameOver === false) {
     player.jump();
+    console.log("up");
   } else {
     obstacles = [];
     isGameOver = false;
